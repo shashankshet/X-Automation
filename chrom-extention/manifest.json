@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Autonomous Tweet Poster",
+    "version": "1.0",
+    "permissions": ["alarms", "tabs", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Tweet Now"
+    }
+  }
+  
